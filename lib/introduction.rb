@@ -30,6 +30,18 @@ end
 
 introduction_with_language_optional name_1
 
+#############################################################
+
+name_2 = "Edwin"
+language_1 = "Ruby"
+
+
+def introduction_with_language_optional name, language
+  puts "Hi, my name is #{name} and I am learning to program in #{language}.\n"
+end
+
+introduction_with_language_optional_1 name_2, language_1
+
 
 
 
