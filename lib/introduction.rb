@@ -12,10 +12,7 @@ end
 introduction name
 #######################################################
 
-name = "Josh"
-language = "Ruby"
-
-def introduction_with_language (name, language)
+def introduction_with_language (name = "Josh", language = "Ruby")
   puts "Hi, my name is #{name} and I am learning to program in #{language}.\n"
 end
 
