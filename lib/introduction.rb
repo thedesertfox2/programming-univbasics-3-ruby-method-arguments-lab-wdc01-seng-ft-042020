@@ -5,7 +5,7 @@
 
 name = "Josh"
 
-def introduction name
+def introduction (name)
   puts "Hi, my name is #{name}.\n"
 end
 
@@ -17,6 +17,16 @@ def introduction_with_language (name = "Josh", language = "Ruby")
 end
 
 introduction_with_language 
+
+##########################################################
+name = "Josh"
+language = "Ruby"
+
+def introduction_with_language_optional (name, language)
+  puts "Hi, my name is #{name} and I am learning to program in #{language}.\n"
+end
+
+introduction_with_language_optional (name, language)
 
 
 
